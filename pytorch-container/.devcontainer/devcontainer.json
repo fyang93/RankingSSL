@@ -1,8 +1,9 @@
 {
-    "name": "pytorch",
-    "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "dev",
-    "workspaceFolder": "/home/yf/workspace",
-    "extensions": ["ms-python.python", "ms-python.vscode-pylance"],
-    "shutdownAction": "none",
-  }
+  "name": "pytorch",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "dev",
+  "workspaceFolder": "/home/yf/workspace",
+  "extensions": ["ms-python.python","ms-python.vscode-pylance","christian-kohler.path-intellisense",
+  "ms-toolsai.jupyter"],
+  "shutdownAction": "none",
+}
